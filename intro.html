@@ -1,0 +1,25 @@
+<head>
+  <title>Todos</title>
+</head>
+
+<body>
+	<div class="containers">
+		{{> TodosPanel}}
+	</div>
+</body>
+
+<template name="TodosPanel">
+	<div class="todos-panel">
+		<ul class="todo-list">
+			{{#each items}}
+				<li class="todo-item">
+					{{> TodoItem}}
+				</li>
+			{{/each}}
+		</ul>
+	</div>
+</template>
+
+<template name="TodoItem">
+	{{subject}}
+</template>
