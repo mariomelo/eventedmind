@@ -3,7 +3,7 @@
 	[
 		{
 			"path": "/home/mario/projetos/eventedmind/intro",
-			"folder_exclude_patterns": [".meteor", "packages"],
+			"folder_exclude_patterns": [".meteor"],
 			"file_exclude_patterns": ["*-workspace"]
 		}
 	]

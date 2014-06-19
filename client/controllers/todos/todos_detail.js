@@ -1,4 +1,8 @@
 TodosDetailController = RouteController.extend({
+  onRun: function(){
+    App.track('Todos Detail View');
+  },
+
   waitOn: function () {
   	var id = this.params._id;
   	return Meteor.subscribe("todos_detail", id);
@@ -6,7 +10,11 @@ TodosDetailController = RouteController.extend({
 
   data: function () {
   	var id = this.params._id;
-  	return Todos.findOne({_id: id});
+  	var todo = Todos.findOne({_id: id});
+    if(todo)
+      App.track('Todo View', {subject: todo.subject});
+
+    return todo;
   },
 
   action: function () {
