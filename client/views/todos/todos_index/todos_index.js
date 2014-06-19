@@ -11,12 +11,16 @@ Template.TodosIndex.events({
 });
 
 Template.TodosIndex.helpers({
-  /*
-   * Example: 
-   *  items: function () {
-   *    return Items.find();
-   *  }
-   */
+  items: function(){
+    return Todos.find({}, {
+      sort:{
+        created_at: -1
+      }
+    });
+  },
+  isDoneClass: function(){
+    return this.is_done? 'done' : '';
+  }
 });
 
 /*****************************************************************************/
