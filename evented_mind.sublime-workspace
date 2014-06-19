@@ -1,0 +1,285 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"init",
+				"initialValue"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "intro.html",
+			"settings":
+			{
+				"buffer_size": 1037,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "intro.js",
+			"settings":
+			{
+				"buffer_size": 1665,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "intro.less",
+			"settings":
+			{
+				"buffer_size": 773,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 180.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 181.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/mario/projetos/eventedmind/intro/intro.less",
+		"/home/mario/projetos/coursera/android-services/sources/assignments/week-2-assignment-1/build.gradle",
+		"/home/mario/projetos/coursera/android-services/sources/assignments/week-2-assignment-1/src/edu/vuum/mocca/SimpleAtomicLong.java",
+		"/home/mario/projetos/coursera/android-services/sources/assignments/week-1-assignment-0/build.gradle",
+		"/home/mario/projetos/coursera/android-services/sources/assignments/week-1-assignment-0/src/edu/vuum/mooca/SynchronizedQueue.java",
+		"/home/mario/projetos/microscope/client/views/posts/post_item.js",
+		"/home/mario/projetos/microscope/client/views/posts/posts_list.js",
+		"/home/mario/projetos/microscope/css/microscope.css",
+		"/home/mario/projetos/microscope/client/views/posts/post_item.html",
+		"/home/mario/projetos/microscope/client/views/posts/posts_list.html",
+		"/home/mario/projetos/microscope/client/main.html",
+		"/home/mario/projetos/microscope/microscope.js",
+		"/home/mario/projetos/microscope/microscope.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"git",
+			"mMaxIterations",
+			"sleep",
+			"nav",
+			"navbar"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "intro.html",
+					"settings":
+					{
+						"buffer_size": 1037,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								873,
+								873
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 345.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "intro.js",
+					"settings":
+					{
+						"buffer_size": 1665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1577,
+								1577
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1104.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "intro.less",
+					"settings":
+					{
+						"buffer_size": 773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								177
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"less",
+				"intro.less"
+			],
+			[
+				"les",
+				"intro.less"
+			],
+			[
+				"intro.h",
+				"intro.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 369.0,
+	"status_bar_visible": true
+}
