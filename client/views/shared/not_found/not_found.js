@@ -26,6 +26,7 @@ Template.NotFound.created = function () {
 };
 
 Template.NotFound.rendered = function () {
+  App.track('Page not Found');
 };
 
 Template.NotFound.destroyed = function () {

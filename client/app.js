@@ -1,8 +1,27 @@
 /*****************************************************************************/
 /* Client App Namespace  */
 /*****************************************************************************/
+var isUserAgentBlackListed = function(){
+	var blacklist = ["PhantomJS", "Googlebot", "Bing", "Yahoo"];
+
+	var userAgent = navigator.userAgent;
+
+	if(!userAgent)
+		return false;
+
+	for(var i = 0; i < blacklist.length; i++){
+		if(~userAgent.indexOf(blacklist[i]))
+			return true;
+	}
+
+	return false;
+}
+
 _.extend(App, {
 	track: function(key, meta){
+
+		if(isUserAgentBlackListed())
+			return;
 
 		meta = meta || {};
 		
